@@ -1,0 +1,100 @@
+@font-face {font-family: "Century Gothic";
+    src: url("fonts/century-gothic.eot");
+}
+
+/*element selector*/
+h1{
+color:#fb742d;
+background-color: #000000;
+text-align: center;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+table
+{
+    font-size: 1em;
+}
+
+a
+{
+    font-family: "Century Gothic", Helvetica, sans-serif;
+}
+
+p
+{
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+img {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 1.5px
+  }
+
+
+form {
+    font-family: "Cenutry Gothic", Helvetica, sans-serif;
+    width: 35%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: .5px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=text],[type=password] 
+{
+    width: 25%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: width 0.4s ease-in-out;
+}
+
+
+input[type=text]:focus {
+    width:40%
+  }
+ 
+input[type=password]:focus {
+    width:40%
+  }
+  
+
+input[type=submit] {
+    width: 15%;
+    background-color: #fb742d;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #c05a23;
+  }
+
+
+/*class selector, applies to all elements using class attribute class='text-decoration'
+i.e. <h1 class="text-decoration"> Title </h1> */
+
+.text-decoration{
+    text-decoration: underline;
+    text-align: left;
+}
+
+
+/*class selector, applies to all elements using id attribute id='black'
+i.e. <h1 id="heading"> Title </h1> */
+
+#BPIS, #ES, #WEIS, #PSS, #GIS, #FSFTV, #FWS {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}

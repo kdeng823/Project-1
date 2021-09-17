@@ -6,20 +6,23 @@
         <link rel="stylesheet" type="text/css" media="print" href="CSS/Printmediatype.css">
     </head>
 		
-	<body>
-	<form action="http;//www.mydomain.com/handlelogin.php">
+	<body style="background-color: #202124; color: #f5f5f5">
+        
+	<form class="screen_only" action="http;//www.mydomain.com/handlelogin.php">
 			<input type="text" placeholder="Username..." name="username_field"/> <!-- "name="username_field"" Gives previous code on line name to refer to when reusing code-->
 			<input type="password" placeholder="Password..." name="password_field"/>
 			<input type="submit">
 		</form>
-		<h1 style="color:#fb742d"> Project 1 </h1>
+        <div>
+            <h1 class="custom_margin"; style="margin: auto; color:black; border: thin solid ; border-radius: 8px;  width: 50%; padding: 1.5px; text-align: center;"> Project 1 </h1>
+        </div>
         <style>
         h2{
             text-align: left;
             font-size: 21 em;
             }
         </style>
-		<h3 class="text-decoration"; style="font-size: 2em;"> Menu Section: <h3>
+		<h3 class="underline"; style="font-size: 2em;"> Menu Section: <h3>
 		<ol> 
 			<li> <a href="#BPIS">Basic Profile Information Section </a> </li>
 			<li> <a href="#ES">Education Summary </a> </li>
@@ -30,88 +33,102 @@
 			<li> <a href="#FWS">Favorite Website section </a> </li>
 		</ol>
 		<div id="BPIS">
-		<h2>Basic Profile Information Section:</h2>
-		<img src="https://github.com/kdeng823/Project-1/blob/main/ed58bc5cde99ca3221b4adc9d36a852cfd172c7d_full.jpg?raw=true"/>
-			<table>
-			<tr> <!--table row -->
-				<td>Name:</td> 
-				<td> Kenny Deng </td>
-			</tr>
-			<tr> <!--table row -->
-				<td>Major:</td> 
-				<td>Information Technology</td>
-			</tr>
-		</table>
-		</div>
+		    <h2>Basic Profile Information Section:</h2>
+		    <img src="https://github.com/kdeng823/Project-1/blob/main/ed58bc5cde99ca3221b4adc9d36a852cfd172c7d_full.jpg?raw=true"/>
+		    <div class="box_table">	
+                <table>
+			        <tr> <!--table row -->
+				        <th>Name:</th> 
+				        <td> Kenny Deng </td>
+			        </tr>
+			        <tr> <!--table row -->
+				        <th>Major:</th>
+				        <td>Information Technology</td>
+			        </tr>
+		        </table>
+		    </div>
+        </div>
 		<div id="ES">
-		<h2> Education Summary: </h2>
-		<ul>
-		<li> Queens College 2017-2018 </li>
-		<li> St. Johns 2018-2021 </li>
-		</ul>
-		
-		</div>
-		
+		    <h2> Education Summary: </h2>
+            <div class="box_table">
+		        <table>
+                    <tr>
+                        <th>College</th>
+                        <th>Years</th>
+                    </tr>
+		            <tr>
+                        <td>Queens College</td>
+                        <td>2017-2018</td>
+                    </tr>
+                    <tr>
+		                <td>St. Johns University</td>
+                        <td>2018-2021</td>
+                    </tr>   
+                </table>
+		    </div>
+        </div>
 		<div id="WEIS">
 		<h2> Work Experience/Internship section: </h2>
-		<table>
-		<tr>
-			<td> Screen Printer Assistant - TSOQ Crosscountry </td>
-			<td> July 2018 – August 2018 </td>
-		</tr>
-		
-		<tr>
-			<td> Accountant Office Assistant - Mac Panther Agency </td>  
-			<td> July 2017 – August 2017 </td>
-		</table>
+		    <div class="box_table">
+                <table>
+		            <tr>
+			            <td> Screen Printer Assistant - TSOQ Crosscountry </td>
+			            <td> July 2018 – August 2018 </td>
+		            </tr>
+		            <tr>
+			            <td> Accountant Office Assistant - Mac Panther Agency </td>  
+			            <td> July 2017 – August 2017 </td>
+                    </tr>
+		        </table>
+            </div>
 		</div>
 		
 		<div id="PSS">
 		<h2> Programming Skills section: </h2>
-		<ul> 
-		<li> Basic Java </li>
-		<li> Basic Python </li>
-		</ul>
+		    <ul style="font-weight: lighter;"> 
+		        <li> Basic Java </li>
+		        <li> Basic Python </li>
+		    </ul>
 		</div>
 		
 		<div id="GIS">
 		<h2> General Interests section: </h2>
-		<p> Some general hobbies of mine are playing video games, building computers, and editing videos. </p>
+		    <p> Some general hobbies of mine are playing video games, building computers, and editing videos. </p>
 		</div>
 		
 		<div id="FSFTV">
-		<h3> Favorite song, film, and TV show section: </h3>
+		    <h3 class=underline> Favorite song, film, and TV show section: </h3>
 		<ul>
 			<li> Favorite Song: Post Malone - Circles </li>
                 <iframe src="https://open.spotify.com/embed/track/51MMC5DogGZAnHil5HQAXg" width="40%" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-			<li> Favorite Film: Spiderman Intro the Spider-Verse </li>
+			<li> Favorite Film: Spiderman Into the Spider-Verse </li>
 				<img src="https://m.media-amazon.com/images/I/71qrTQaP2nL._AC_SL1308_.jpg"
 				width="15%"/>
 			<li> Favorite TV show: The Simpsons </li>
-				<img src="https://m.media-amazon.com/images/M/MV5BYjFkMTlkYWUtZWFhNy00M2FmLThiOTYtYTRiYjVlZWYxNmJkXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
+				<img class="screen_only" src="https://m.media-amazon.com/images/M/MV5BYjFkMTlkYWUtZWFhNy00M2FmLThiOTYtYTRiYjVlZWYxNmJkXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
 				width="15%"/>
 				<iframe width="600" height="325" src="https://www.youtube.com/embed/jfVBrpIhH60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</ul>
 		</div>
 		
 		<div id="FWS">
-		<h3> Favorite Website section: </h3>
+		<h3 class=underline> Favorite Website section: </h3>
 		
-		<ul> 
-			<li> <a href="http:www.youtube.com" target="_blank"> <span style="color:#FF0000"> Youtube </span> </a> -Video hosting website created by Google. </li>
-			<li> <a href="http:www.reddit.com" target="_blank"> <span style="color:#FF5700"> Reddit </span> </a> -Social news and discussion website </li>
-			<li> <a href="http:www.twitter.com" target="_blank"> <span style="color:#1DA1F2"> Twitter </span> </a> -Microblogging and SNS website </li> 
+		<ul class="reduce-font-size"> 
+			<li> <a href="http:www.youtube.com" target="_blank"> <i><span style="color:#FF0000;font-weight:lighter;" > Youtube </span></i> </a> -Video hosting website created by Google. </li>
+			<li> <a href="http:www.reddit.com" target="_blank"> <i><span style="color:#FF5700;font-weight:lighter"> Reddit </span></i> </a> -Social news and discussion website </li>
+			<li> <a href="http:www.twitter.com" target="_blank"> <i><span style="color:#1DA1F2;font-weight:lighter"> Twitter </span></i> </a> -Microblogging and SNS website </li> 
 		</ul>	
 		</div>
 		
 		<h2> My Projects in this course: </h2>
 			<ol> 
-				<li> <a href="https://github.com/kdeng823/Project-1" target="_blank"> Project 1 </a> </li>
+				<li class="increase-font-size"> <a href="https://github.com/kdeng823/Project-1" target="_blank"> Project 1 </a> </li>
 					<ul>
-						<li> <a href="https://kdeng823.github.io/Project-1/Project%201%20Milestone%20one.html" target="_blank"> Milestone 1 </a> </li>
+						<li> <a href=" " target="_blank"> Milestone 1 </a> </li>
 						<p> Creating a simple HTML Page that serves as a online profile page throughout this course. </p>
-                        			<li> <a href="https://kdeng823.github.io/Project-1/Milestone%202/Project%201%20Milestone%202.html" target="_blank"> Milestone 2 </a></li>
-                        			<p> Styling my HTML page using CSS. </p>
+                        <li> <a href=" " target="_blank"> Milestone 2 </a></li>
+                        <p> Styling my HTML page using CSS. </p>
 					</ul>
 			</ol>
 	<body>

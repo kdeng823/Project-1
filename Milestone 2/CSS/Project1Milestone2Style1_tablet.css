@@ -1,3 +1,14 @@
+ @media (max-width:1400px){
+        .screen_only {
+            display: none
+        } 
+        .reduce-font-size{
+            font-size: 1em;
+        } 
+        .increase-font-size{
+            font-size: 2.25em;
+        }       
+      }
 
 body
 {
@@ -21,6 +32,7 @@ li{
 h3, td, ul, p{
     font-size: 1.5em;
 }
+
 
 p{
     font:bold;
@@ -91,10 +103,11 @@ input[type=submit] {
   }
 
 
-/*class selector, applies to all elements using class attribute class='text-decoration'
-i.e. <h1 class="text-decoration"> Title </h1> */
 
-.text-decoration{
+/*class selector, applies to all elements using class attribute class='underline'
+i.e. <h1 class="underline"> Title </h1> */
+
+.underline{
     text-decoration: underline;
     text-align: left;
 }

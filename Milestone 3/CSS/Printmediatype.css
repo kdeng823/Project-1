@@ -1,0 +1,15 @@
+    @media screen {
+         p.bodyText {font-family:'Times New Roman', Times, serif;}
+      }
+
+      @media print {
+         .screen_only {
+             display: none
+         } 
+         p.bodyText {font-family:Verdana, Geneva, Tahoma, sans-serif;}
+      }
+
+      @media screen, print {
+         p.bodyText {font-size:12pt}
+      }
+

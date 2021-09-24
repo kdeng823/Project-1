@@ -1,0 +1,125 @@
+@font-face {font-family: "Century Gothic";
+    src: url("fonts/century-gothic.eot");
+}
+
+
+
+/*element selector*/
+h1{
+color:white;
+background-color: #ff2d50;
+text-align: center;
+outline: 5px black;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+a
+{
+    font-family: "Century Gothic", Helvetica, sans-serif;
+}
+
+p
+{
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight:lighter;
+}
+
+img {
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 1px
+  }
+
+
+form {
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    width: 35%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: thin solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=text],[type=password] 
+{
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    width: 25%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: thin solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: width 0.4s ease-in-out;
+}
+
+
+input[type=text]:focus {
+    width:40%
+  }
+ 
+input[type=password]:focus {
+    width:40%
+  }
+  
+
+input[type=submit] {
+    width: 15%;
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    background-color: #ff2d50;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: darkred;
+  }
+
+/*class selector, applies to all elements using class attribute class='underline'
+i.e. <h1 class="underline"> Title </h1> */
+
+.underline{
+    text-decoration: underline;
+    text-align: left;
+}
+
+/*Century Gothic font*/
+.century_gothic{
+    font-family: "Century Gothic", Helvetica, sans-serif;
+}
+
+  /* apply on box tables within the #box_table only */
+
+  .box_table>table{
+    border-width: 1px;
+    border-style: solid;
+    border-color:black;
+    border-collapse: collapse;
+    width:50%;
+}
+
+.box_table>table th, .box_table>table td{
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    border:thin solid black;
+    padding: 3px;
+    text-align: center;
+}
+
+.box_table>table th{
+    background-color: #ff2d50;
+}
+
+/*class selector, applies to all elements using id attribute id='black'
+i.e. <h1 id="heading"> Title </h1> */
+
+#BPIS, #ES, #WEIS, #PSS, #GIS, #FSFTV, #FWS #PJS {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
